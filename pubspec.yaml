@@ -1,0 +1,38 @@
+name: helpers
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.10.0
+  flutter_svg: ^2.0.15
+  url_launcher: ^6.2.1
+  image_picker: ^1.1.2
+  device_info_plus: ^11.1.1
+  permission_handler: ^11.3.1
+  file_picker: ^8.1.4
+  path_provider: ^2.1.5
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+
+#  Social Login
+  firebase_auth: ^4.4.2
+  flutter_facebook_auth: ^7.1.1
+  sign_in_with_apple: ^4.3.0
+  google_sign_in: ^6.1.2
+
+  in_app_purchase_storekit: ^0.3.6+4
+  in_app_purchase: ^3.2.0
+
+  connectivity_plus: ^6.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+dependencies_overrides:
+  facebook_auth_desktop: ^0.0.9
+  flutter_svg:
