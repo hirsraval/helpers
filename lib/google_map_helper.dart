@@ -22,9 +22,10 @@ mixin BitmapDescriptorHelper {
       final ui.Image image = await pictureInfo.picture.toImage(60, 80);
       final ByteData? byteData = await image.toByteData(format: ui.ImageByteFormat.png);
       if (byteData != null) {
-        descriptor = BitmapDescriptor.fromBytes(
+        descriptor = BitmapDescriptor.bytes(
           byteData.buffer.asUint8List(),
-          size: const Size(30, 40),
+          width: 30,
+          height: 40
         );
       }
     } catch (error) {
