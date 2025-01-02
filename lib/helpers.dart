@@ -13,3 +13,4 @@ export 'social_login/social_login.dart';
 export 'in_app_purchase/in_app_purchase.dart';
 export 'connectivity_helper.dart';
 export 'event_bus.dart';
+export 'paginated_listener.dart';
